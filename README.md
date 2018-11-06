@@ -12,7 +12,7 @@ Classes are in fact JavaScript functions, you can define them either with an exp
 ```javascript
 
 let dog = class { 
-    constructor(breed,name){
+    constructor(breed, name){
         this.breed = breed; 
         this.name = name; 
     }
