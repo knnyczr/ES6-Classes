@@ -115,7 +115,16 @@ Easy right? Well we only created the cookie cutter for our dogs. But this class 
 
 ## Create your own Dogs!
 
-Make your own imaginary dogs, tell them what kind of breed they are, give them a first name and tell them how old they are, and give them the ability to convert its age into human years. 
+* touch a new file, in this repo name it dogs.js and be prepared to run it with node in the terminal
+* Make your own imaginary dogs, tell them what kind of breed they are, give them a first name and tell them how old they are, and give them the ability to convert its age into human years. 
 
 CHALLENEGE: 
-* Create a method for when these adorable dogs are adopted, have the method accept a string to rename the dog. 
+* Create a method for when these adorable dogs are adopted, have the method accept a *string* to *rename* the dog. 
+
+## Create a for cars
+
+* touch a new file, in this repo name it cars.js and be prepared to run it with node in the terminal
+* Make a class for cars, tell me what brand these cars can be, give them a color, give them a year, 
+* make it `honk()` and console.log all of it's attributes. 
+* Give it one more method to change it color. 
+
