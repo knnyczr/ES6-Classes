@@ -144,8 +144,12 @@ css and js files have been linked for you.
 
 Google: 
 
-* onclick Event
+* onclick
 
-* 
+* document.getElementById(" ")
+
+* .innerHTML
+
+* .src
 
 </details>
