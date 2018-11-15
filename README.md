@@ -1,9 +1,32 @@
 # ES6 Classes
 
-JavaScript classes is what developers class Syntactical Sugar. 
-It makes JavaScript a little easier or "sweetens " over JavaScript's existing protype-based inheritance. 
+JavaScript classes is what developers call Syntactical Sugar. 
+It makes JavaScript a little easier or "sweetens" over JavaScript's existing protype-based inheritance. 
 
-Classes are in fact JavaScript functions, you can define them either with an expression or declaration. 
+## Objects
+
+We know how to declare a variable, give it key:value pairs. and we know how to give those objects methods
+
+```javascript
+
+let student = {
+    fname: 'kenny',
+    lname: 'cruzer',
+    speak(){
+        return(
+            `Hey I\'m ${this.fname} ${this.lname}`
+        )
+    }
+}
+
+console.log(student.speak())
+// expected output => Hey I'm kenny cruzer
+
+```
+
+----
+
+Classes are just like JavaScript functions, you can define them either with an expression or declaration. 
 
 [Class Expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/class) VS [Class Declarations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class)
 
@@ -90,3 +113,9 @@ Easy right? Well we only created the cookie cutter for our dogs. But this class 
 
 
 
+## Create your own Dogs!
+
+Make your own imaginary dogs, tell them what kind of breed they are, give them a first name and tell them how old they are, and give them the ability to convert its age into human years. 
+
+CHALLENEGE: 
+* Create a method for when these adorable dogs are adopted, have the method accept a string to rename the dog. 
