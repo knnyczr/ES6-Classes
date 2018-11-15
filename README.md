@@ -142,14 +142,16 @@ css and js files have been linked for you.
 <details>
 <summary><strong>Hints...</strong></summary>
 
-Google: 
+things to Google: 
 
 * onclick
 
 * document.getElementById(" ")
 
-* .innerHTML
+* .innerHTML = 
 
-* .src
+* .src = 
+
+* .play()
 
 </details>
