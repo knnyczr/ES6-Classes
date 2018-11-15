@@ -123,8 +123,29 @@ CHALLENEGE:
 
 ## Create a for cars
 
-* touch a new file, in this repo name it cars.js and be prepared to run it with node in the terminal
+* Touch a new file, in this repo name it cars.js and be prepared to run it with node in the terminal
 * Make a class for cars, tell me what brand these cars can be, give them a color, give them a year, 
-* make it `honk()` and console.log all of it's attributes. 
+* Make it `honk()` and console.log all of it's attributes. 
 * Give it one more method to change it color. 
 
+## In the DOM
+
+These workouts are great, but nothing is happening in the DOM. 
+
+I've provided a folder called DOM folder with a few files inside, go ahead and open the index.html
+css and js files have been linked for you. 
+
+* Create a pokemon class in your js file, it should create pokemon with a name, a description, a sound and has a method to evolve to the next pokemon in the DOM
+
+(for non pokemon fans: pichu evolves into pikachu, who then evolves into raichu)
+
+<details>
+<summary><strong>Hints...</strong></summary>
+
+Google: 
+
+* onclick Event
+
+* 
+
+</details>
