@@ -7,7 +7,7 @@ Classes are in fact JavaScript functions, you can define them either with an exp
 
 [Class Expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/class) VS [Class Declarations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class)
 
-The `constructor` method is a special method for creating and initializing an object created with a `class`.
+The `constructor` method is a special method for creating and initializing an object created with a `class`. There can only be one! – per class, else a syntax error. 
 
 
 ## Class Expressions
@@ -53,4 +53,35 @@ class Dog {
 
 ## this
 
-`this` is a special key word that refers 
+`this` is a special key word that refers to the instance of the the class in that point in time. It refers to current object you're talking about. 
+
+## Doggo
+
+* So let's create a Class for our dogs, that creates objects with a breed, a first name, and an age. 
+
+* In our magical land of speaking dogs, we're going to write a method that will have our dog speak
+
+* Unfortunetly for us, dog's mature and age much faster than humans do, their life spans are much shorter. We're also going to create a method that converts our dog's years into human years. 
+
+
+```javascript
+
+class dog {
+    constructor(breed, fname, age){
+        this.breed = breed; 
+        this.fname = fname; 
+        this.age = age; 
+    }
+    speak(){
+        console.log(
+            `My name is ${this.fname}, 
+            I am ${humanYears(this.age)}, 
+            and I am a ${this.breed}`)
+    }
+    humanYears(){
+        return this.age * 7; 
+    }
+}
+
+```
+
