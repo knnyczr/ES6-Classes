@@ -53,7 +53,7 @@ class Dog {
 
 ## this
 
-`this` is a special key word that refers to the instance of the the class in that point in time. It refers to current object you're talking about. 
+`this` is a special key word that refers to the instance of the the class in that point in time. It refers to current object you're talking about. We'll get back to what this means after. 
 
 ## Doggo
 
@@ -66,7 +66,7 @@ class Dog {
 
 ```javascript
 
-class dog {
+class Dog {
     constructor(breed, fname, age){
         this.breed = breed; 
         this.fname = fname; 
@@ -75,8 +75,9 @@ class dog {
     speak(){
         console.log(
             `My name is ${this.fname}, 
-            I am ${humanYears(this.age)}, 
-            and I am a ${this.breed}`)
+            I am ${this.humanYears()}, 
+            and I am a ${this.breed}`
+        );
     }
     humanYears(){
         return this.age * 7; 
@@ -84,4 +85,8 @@ class dog {
 }
 
 ```
+
+Easy right? Well we only created the cookie cutter for our dogs. But this class is very powerful. It declares object instance, and the objects will have three things at 'birth:' a breed, a first name and an age that describes that instance of a dog. The dog you create also has 2 'abilities' or methods. It can `speak()` and it can rephrase it's age into `humanYears()`
+
+
 
